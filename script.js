@@ -9,13 +9,13 @@ const carrusel = document.getElementById('carrusel');
 
 // Lista de contenido: alternamos imagen / video
 const contenido = [
-  { tipo: 'img', src: 'media/imagen1.jpg' },
-  { tipo: 'video', src: 'media/video1.mp4' },
-  { tipo: 'img', src: 'media/imagen2.jpg' },
-  { tipo: 'img', src: 'media/imagen3.jpg' },
-  { tipo: 'video', src: 'media/video2.mp4' },
-  { tipo: 'img', src: 'media/imagen4.jpg' },
-  { tipo: 'img', src: 'media/imagen5.jpg' }
+  { tipo: 'img', src: 'media/Imagen1.jpg' },
+  { tipo: 'video', src: 'media/Video1.mp4' },
+  { tipo: 'img', src: 'media/Imagen2.jpg' },
+  { tipo: 'img', src: 'media/Imagen3.jpg' },
+  { tipo: 'video', src: 'media/Video2.mp4' },
+  { tipo: 'img', src: 'media/Imagen4.jpg' },
+  { tipo: 'img', src: 'media/Imagen5.jpg' }
 ];
 
 // Función para crear los elementos y agregarlos al carrusel
