@@ -34,3 +34,22 @@ contenido.forEach(item => {
 
   carrusel.appendChild(elemento);
 });
+
+// Pantalla de introducción
+const intro = document.getElementById('intro');
+const musica = document.getElementById('musica');
+
+function iniciarSitio() {
+  intro.classList.add('hidden');
+  if (musica.paused) {
+    musica.play().catch(e => {
+      console.warn('Autoplay bloqueado:', e);
+    });
+  }
+}
+
+// Ocultar la intro al primer clic
+intro.addEventListener('click', iniciarSitio);
+
+// Ocultarla automáticamente luego de 5 segundos si no hay clic
+setTimeout(iniciarSitio, 5000);
